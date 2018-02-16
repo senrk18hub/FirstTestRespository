@@ -26,5 +26,7 @@ public class FlightFinder {
 		Select drpDown = new Select(flight);
 		drpDown.selectByIndex(2);
 		submit.click();
+		System.out.println("Git checkin");
+		// Pushed the code to Github repository
 	}
 }
